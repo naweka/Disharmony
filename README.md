@@ -1,7 +1,7 @@
 # Disharmony
 Harmony Hook Detector in 3 lines
 
-```charp
+```cs
 public static bool IsHookedByHarmony(MethodBase method)
 {
   var methodPtr = method.MethodHandle.GetFunctionPointer();
